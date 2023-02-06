@@ -241,9 +241,8 @@
 
     - **Corses**
       - Skillbox: Python разработчик
-      - 🔥 Udemy: Django для начинающих
       - Django 4 and Python Full-Stack Developer Masterclass
-      - Python-фреймворк Django
+      -  🔥 Skillbox: Python-фреймворк Django
 
     - **Awesome Django**
       - [Awesome Django](https://github.com/wsvincent/awesome-django#readme)
