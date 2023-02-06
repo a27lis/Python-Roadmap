@@ -1,6 +1,10 @@
 
 # Python Engineer Roadmap 
+## About marks
+- ✅ - is done
+- 🔥 - in progress
 ### Table of Contents
+
 
 - [Prerequisites](#prerequisites)
   - [Algorithms and Data Structures](#algorithms-and-data-structures)
@@ -86,13 +90,14 @@
 - ### Algorithms and Data Structures
   
   - **Book**
-    -  [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+    -  🔥 [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
     -  [Cracking the Coding Interview by Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
     - [Data Structure and Algorithmic Thinking with Python: Data Structure and Algorithmic Puzzles by Narasimha Karumanchi](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
     - [Introduction to Algorithms (CLRS)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
 
   - **Video**
     - [Data Structures And Algorithms Course by Mosh Hamedani](https://codewithmosh.com/p/data-structures-algorithms)
+    - [Инстенсив по алгоритмам](https://www.youtube.com/playlist?list=PLQC2_0cDcSKAzLqqXUidKBJsy1Im44aOo)
 
 
 
@@ -208,6 +213,9 @@
 ## Career Path
 
 - ### Backend
+  - ### General
+    - [Web-технологии](https://stepik.org/course/154/info) 
+    - 🔥 [Школа бекенд разработки Яндекса](https://www.youtube.com/playlist?list=PLQC2_0cDcSKCMKnywAS8eI_EgCcE3yx0r)
 
   - #### Django
     - **Documentation**
@@ -233,7 +241,7 @@
 
     - **Corses**
       - Skillbox: Python разработчик
-      - Udemy: Django для начинающих
+      - 🔥 Udemy: Django для начинающих
       - Django 4 and Python Full-Stack Developer Masterclass
       - Python-фреймворк Django
 
@@ -370,6 +378,10 @@
       -  [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
       - [Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement](https://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1680502530/)
 
+      - **Coureses**
+        - [Введение в базы данных](https://stepik.org/course/1240/info)
+
+
   - #### SQLite
     
     - **Documentation**
@@ -377,6 +389,8 @@
     
     - **Tutorials**
       - [SQLite Tutorial](https://www.sqlitetutorial.net/)
+      - ✅[SQLite 3 | Как работать с базой данных в Python?](https://www.youtube.com/watch?v=y0YWRqrhTBY)
+      - ✅[Изучение SQLite3 за 30 минут! Практика на основе языка Python](https://www.youtube.com/watch?v=bmQPy89IZNk)
 
   - #### PostgreSQL
     
