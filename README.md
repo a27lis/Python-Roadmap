@@ -63,7 +63,7 @@
     - [Introduction to Algorithms (CLRS)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
 
   - **Video**
-    - 🔥 [Структуры данных](https://www.youtube.com/playlist?list=PLA0M1Bcd0w8x4jEp1r_aN3xlnlbfx9RQ2)
+    - ✅ [Структуры данных](https://www.youtube.com/playlist?list=PLA0M1Bcd0w8x4jEp1r_aN3xlnlbfx9RQ2)
 
 
 
