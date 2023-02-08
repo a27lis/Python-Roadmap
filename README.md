@@ -1,5 +1,5 @@
 
-# Python Engineer Roadmap 
+# Backend Python Engineer Roadmap 
 ## About marks
 - ✅ - is done
 - 🔥 - in progress
@@ -10,27 +10,16 @@
   - [Algorithms and Data Structures](#algorithms-and-data-structures)
   - [System Design](#system-design)
   - [Git](#git)
-  - [Operating System](#operating-system)
-  - [Virtual Environment](#virtual-environment)
   - [Python](#python)
 - [Career Path](#career-path)
   - [Backend](#backend)
     - [Django](#django)
+    - [Django REST](#django-rest)
     - [FastAPI](#fastapi)
     - [Flask](#flask)
-    - [Tornado](#tornado)
-    - [Web2Py](#web2py)
-    - [Sanic](#sanic)
-    - [AIOHTTP](#aiohttp)
-    - [Bottle](#bottle)
-    - [Dash](#dash)
+  - [Frontend](#frontend)
+    - [HTML, CSS, JavaScript](#html-css-javascript)
 
-  - [Image Processing](#image-processing)
-  - [DevOps](#devops)
-  - [Bot](#bot)
-    - [Web](#web)
-      - [Selenium](#selenium)
-      - [WebBot](#webbot)
 
 - [Advanced Topics](#advanced-topics)
   - [Databases](#databases)
@@ -40,13 +29,9 @@
     - [MySQL](#mysql)
     - [Oracle](#oracle)
     - [MongoDB](#mongodb)
-    - [Redis](#redis)
-    - [MemCached](#memcached)
-    - [Apache Cassandra](#apache-cassandra)
   - [Clean Code](#clean-code)
-  - [Clean Architecture](#clean-architecture)
   - [Caching](#caching)
-
+  - [Container Platforms](#container-platforms)
     - [Docker](#docker)
     - [Kubernetes](#kubernetes)
   - [Programming Paradigms](#programming-paradigms)
@@ -59,30 +44,12 @@
     - [SOLID](#solid)
     - [KISS](#kiss)
     - [DRY](#dry)
-  - [Design Patterns](#design-patterns)
-  - [Message Brokers](#message-brokers)
-    - [RabbitMQ](#rabbitmq)
-    - [Apache Kafka](#apache-kafka)
-  - [WSGI Servers](#wsgi-servers)
-    - [Gunicorn](#gunicorn)
-    - [uWSGI](#uwsgi)
-  - [ASGI Servers](#asgi-servers)
-    - [Uvicorn](#uvicorn)
-    - [Starlette](#starlette)
   - [Web Servers](#web-servers)
     - [Nginx](#nginx)
     - [Apache](#apache)
-  - [API](#api)
-    - [Design](#design)
-    - [Security](#security)
-  - [Availability and Reliability](#availability-and-reliability)
-  - [Distributed Systems](#distributed-systems)
-  - [Reactive Systems](#reactive-systems)
-  - [Refactoring](#refactoring)
-  - [Security](#security)
-  - [Monitoring](#monitoring)
-  - [Soft Skill](#soft-skill)
-  - [Public Cloud](#public-cloud)
+  - [Exercises](#exercises)
+
+
 
 
 ## Prerequisites
@@ -90,14 +57,13 @@
 - ### Algorithms and Data Structures
   
   - **Book**
-    -  🔥 [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+    -  ✅ [Grokking Algorithms by Aditya Bhargava](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
     -  [Cracking the Coding Interview by Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
     - [Data Structure and Algorithmic Thinking with Python: Data Structure and Algorithmic Puzzles by Narasimha Karumanchi](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
     - [Introduction to Algorithms (CLRS)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
 
   - **Video**
-    - [Data Structures And Algorithms Course by Mosh Hamedani](https://codewithmosh.com/p/data-structures-algorithms)
-    - [Инстенсив по алгоритмам](https://www.youtube.com/playlist?list=PLQC2_0cDcSKAzLqqXUidKBJsy1Im44aOo)
+    - 🔥 [Инстенсив по алгоритмам](https://www.youtube.com/playlist?list=PLQC2_0cDcSKAzLqqXUidKBJsy1Im44aOo)
 
 
 
@@ -125,47 +91,9 @@
     - [Pro Git](https://git-scm.com/book/en/)
     - [Git Notes for Professionals](https://books.goalkicker.com/GitBook/)
 
-  - **Website**
-    - [Git For Beginners by tutorialspoint](https://www.tutorialspoint.com/git/index.htm)
-    - [Git For Intermediates and Professionals by W3schools](https://www.w3schools.com/git/)
-    - [Advanced Git Tips by atlassian](https://www.atlassian.com/git/tutorials/advanced-overview)
-    - [Learn Git Branching](https://learngitbranching.js.org/)
-  
   - **Cheat Sheet**
     - [Git cheat sheet](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=353)
 
-- ### Operating System
-
-  - **Book**
-    - [LPIC-1: Linux Professional Institute Certification Study Guide: Exams 101 and 102 by Roderick W. Smith](https://www.amazon.com/LPIC-1-Linux-Professional-Institute-Certification/dp/1118495632)
-    - [Operating System from 0 to 1](https://raw.githubusercontent.com/tuhdo/os01/master/Operating_Systems_From_0_to_1.pdf)
-
-  - **Video**
-    - [Lpic-1 Course by Jadi](https://www.youtube.com/watch?v=AKkNUvEHXhk&list=PLFOYXCPEqdNUU55Xvgst8wGTWnz_sd-cj)
-
-
-- ### Virtual Environment
-
-  - **VENV**
-  
-    - **Documentation**
-      - [VENV Documentation](https://docs.python.org/3/library/venv.html)
-  
-  - **VirtualEnvWrapper**
-    - **Documentation**
-      - [VirtualEnvWrapper Documentation](https://virtualenvwrapper.readthedocs.io/en/latest/)
-  
-  - **PipEnv**
-    - **Documentation**
-      - [PipEnv Documentation](https://pipenv.pypa.io/en/latest/)
-  
-  - **Conda**
-    - **Documentation**
-      - [Conda Documentation](https://docs.conda.io/en/latest/)
-  
-  - **Python-Poetry**
-    - **Documentation**
-      - [Python-Poetry Documentation](https://python-poetry.org/docs/)
 
 - ### Python
 
@@ -180,7 +108,7 @@
       - [Essential Python Tools](https://books.agiliq.com/projects/essential-python-tools/en/latest/)
 
     - **Video**
-      - [Python Beginner Tutorial by NeuralNine](https://www.youtube.com/playlist?list=PL7yh-TELLS1E6dNCzfQl-NG-KJP3C-4mc)
+      - ✅ [Python Beginner Tutorial by NeuralNine](https://www.youtube.com/playlist?list=PL7yh-TELLS1E6dNCzfQl-NG-KJP3C-4mc)
       - [Python Programming Tutorials by Tech with Tim](https://www.youtube.com/playlist?list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm)
 
   - **Intermediate**  
@@ -237,12 +165,9 @@
       - [Django ORM Mastery - Very Academy](https://www.youtube.com/watch?v=iQF6pln3Gog&list=PLOLrQ9Pn6cazjoDEnwzcdWWf4SNS0QZml)
       - [Learn Django Class Base View - Very Academy](https://www.youtube.com/watch?v=GxA2I-n8NR8&list=PLOLrQ9Pn6caxNb9eFZJ6LfY29nZkKmmXT)
       - [Try Django 3.2 - Python Web Development Tutorial Series by Justin Mitchel](https://www.youtube.com/playlist?list=PLEsfXFp6DpzRMby_cSoWTFw8zaMdTEXgL)
-      - ✅ [Уроки изучения Django / Создание сайта на Джанго](https://www.youtube.com/playlist?list=PLDyJYA6aTY1nZ9fSGcsK4wqeu-xaJksQQ)
+      - ✅ [Django 3 для python ](https://www.youtube.com/playlist?list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F)
 
-    - **Corses**
-      - Skillbox: Python разработчик
-      - Django 4 and Python Full-Stack Developer Masterclass
-      -  🔥 Skillbox: Python-фреймворк Django
+
 
     - **Awesome Django**
       - [Awesome Django](https://github.com/wsvincent/awesome-django#readme)
@@ -252,6 +177,9 @@
       - [Django Models Cheat Sheet](https://cheatography.com/lewiseason/cheat-sheets/django-models/)
       - [Django Class Based Views Cheat Sheet](https://cheatography.com/papousekp/cheat-sheets/django-class-based-views/)
       - [Django Class Based Views Cheat Sheet 2](https://ccbv.co.uk/)
+  - ### Django REST
+    - **Video**
+      - [Уроки по Django REST Framework](https://www.youtube.com/playlist?list=PLA0M1Bcd0w8xZA3Kl1fYmOH_MfLpiYMRs)
 
   - #### FastAPI
 
@@ -283,88 +211,12 @@
 
     - **Cheat Sheet**
       - [Flask Cheat Sheet and Quick Reference](https://s3.us-east-2.amazonaws.com/prettyprinted/flask_cheatsheet.pdf)
-
-  - #### Tornado
-
-    - **Book**
-      - [Introduction to Tornado by Michael Dory](https://www.amazon.com/Introduction-Tornado-Michael-Dory-2012-03-31/dp/B01FEK31OM)
-
-    - **Video**
-      - [Tornado, Coroutines and Concurrency by Bek Brace](https://www.youtube.com/watch?v=-gJ21qzpieA)
-      - [Tornado in Depth by Oscar Vilaplana](https://www.youtube.com/watch?v=4Ztq-Yz1ero)
-      - [More than just a pretty web framework, the Tornado IOLoop by Gavin M.Roy](https://www.youtube.com/watch?v=3BYN3ouwkRA)
-
-    - **Documentation**
-      - [Tornado Document](https://www.tornadoweb.org/en/stable/)
-
-  - #### Web2Py
-
-    - **Documentation**
-      - [Web2Py Document](https://web2py.readthedocs.io/en/latest/)
-
-    - **Book**
-      - [Complete Reference Manual by Massimo Di Pierro](http://www.web2py.com/book)
-      - [Killer Web Development by Marco Laspe](http://killer-web-development.com/)
-
-  - #### Sanic
-
-    - **Documentation**
-      - [Sanic Document](https://sanic.readthedocs.io/en/stable/index.html)
-      - [Sanic Guide](https://sanic.dev/en/guide/)
-    
-    - **Article**
-      - [Getting Started with Sanic for Python by Mukul Khanna](https://scoutapm.com/blog/go-fast-getting-started-with-sanic-for-python)
-
-    - **Video**
-      - [Async Web Apps with Sanic by Dougal Matthews](https://www.youtube.com/watch?v=wb0lk4e9DEg)
-
-  - #### AIOHTTP
-
-    - **Documentation**
-      - [AIOHTTP Document](https://docs.aiohttp.org/en/stable/)
-
-  - #### Bottle
-
-    - **Documentation**
-      - [Bottle Document](https://bottlepy.org/docs/dev/)
-
-  - #### Dash
-
-    - **Documentation**
-      - [Dash-Python Document](https://dash.plotly.com/introduction)
-
-    - **Awesome Dash**
-      - [Awesome Dash](https://github.com/ucg8j/awesome-dash#readme)
-
-    - **Template**
-      - [Dash Clean Architecture Template](https://github.com/CzakoZoltan08/dash-clean-architecture-template)
-
-  - [List Of All Python Backend Web Frameworks](https://wiki.python.org/moin/WebFrameworks)
-
-
-
-- ### Bot
-  - #### Web
-
-    - #### Selenium
-      - [Selenium (Main Home)](https://github.com/SeleniumHQ/selenium)
-      - [Source](https://github.com/SeleniumHQ/selenium/tree/trunk/py)
-      - [Documentation](https://www.selenium.dev/selenium/docs/api/py/)
-      - [Helium](https://github.com/mherrmann/selenium-python-helium)
-      - [Base](https://github.com/seleniumbase/SeleniumBase)
-      - [InstaPy](https://github.com/InstaPy/InstaPy)
-      - [AutoCrawler](https://github.com/YoongiKim/AutoCrawler)
-      - [Wire](https://github.com/wkeeling/selenium-wire)
-      - [Cucucumber](https://github.com/executeautomation/SeleniumWithCucucumber)
-      - [Requestium](https://github.com/tryolabs/requestium)
-      - [Undetected](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+- ### Frontend
+  - ### HTML, CSS, JS
+    - Skillbox: веб-верстка базовый уровень
+    - Skillbox: веб-верстка продвинутый уровень
   
-  
-  
-    - #### WebBot
-      - [Source](https://github.com/nateshmbhat/webbot)
-  
- 
+
 ## Advanced Topics
 
   
@@ -387,9 +239,8 @@
       - [SQLite Documentation](https://www.sqlite.org/docs.html)
     
     - **Tutorials**
-      - [SQLite Tutorial](https://www.sqlitetutorial.net/)
+      - ✅[SQLite Tutorial](https://www.sqlitetutorial.net/)
       - ✅[SQLite 3 | Как работать с базой данных в Python?](https://www.youtube.com/watch?v=y0YWRqrhTBY)
-      - ✅[Изучение SQLite3 за 30 минут! Практика на основе языка Python](https://www.youtube.com/watch?v=bmQPy89IZNk)
 
   - #### PostgreSQL
     
@@ -438,31 +289,7 @@
     - **Cheat Sheet**
       - [MongoDB Cheat Sheet by GoalKicker](https://books.goalkicker.com/MongoDBBook/MongoDBNotesForProfessionals.pdf)
 
-  - #### Redis
 
-    - **Documentation**
-      - [Redis Documentation](https://redis.io/docs/)
-    
-    - **Video**
-      - [Redis Crash Course 1](https://www.youtube.com/watch?v=Hbt56gFj998)
-      - [Redis Crash Course 2](https://www.youtube.com/watch?v=OqCK95AS-YE)
-
-    - **Article**
-      - [How to use redis with python by Brad Solomon](https://realpython.com/python-redis/)
-
-    - **Cheat Sheet**
-      - [Redis Cheat Sheet 1](https://cheatography.com/tasjaevan/cheat-sheets/redis/)
-      - [Redis Cheat Sheet 2](https://masonoise.files.wordpress.com/2010/03/redis-cheatsheet-v1.pdf)
-
-  - #### MemCached
-
-    - **Documentation**
-      - [MemCached Wiki](https://github.com/memcached/memcached/wiki)
-
-  - #### Apache Cassandra
-
-    - **Documentation**
-      - [Apache Cassandra Documentation](https://cassandra.apache.org/_/index.html)
 
 - ### Clean Code
 
@@ -471,9 +298,7 @@
     -  [Clean Code in Python by Mariano Anaya](https://www.amazon.com/Clean-Code-Python-maintainable-efficient/dp/1800560214)
     - [Code Complete: A Practical Handbook of Software Construction, Second Edition by Steve Mcconnell](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
 
-- ### Clean Architecture
 
-  (In Progress)
 
 - ### Caching
 
@@ -565,69 +390,6 @@
   - #### DRY
 
 
-- ### Design Patterns
-
-  - **Book**
-    - [Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software](https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X)
-    - [Django Design Patterns and Best Practices (by Arun Ravindran)](https://www.amazon.com/Django-Design-Patterns-Practices-Industry-standard/dp/1788831349)
-    - [Dive Into Design Patterns by Alexander Shvets](https://refactoring.guru/design-patterns/book)
-
-  - **Video**
-
-    - [Become a better software developer](https://www.youtube.com/c/ArjanCodes)
-
-- ### Message Brokers
-
-  - #### RabbitMQ
-
-    - **Documentation**
-      - [RabbitMQ Documentation](https://www.rabbitmq.com/documentation.html)
-
-    - **Article**
-      - [RabbitMQ Hello World](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
-      - [RabbitMQ Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
-      - [RabbitMQ Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-python.html)
-      - [RabbitMQ Routing](https://www.rabbitmq.com/tutorials/tutorial-four-python.html)
-      - [RabbitMQ Topics](https://www.rabbitmq.com/tutorials/tutorial-five-python.html)
-      - [RabbitMQ Remote procedure call (RPC)](https://www.rabbitmq.com/tutorials/tutorial-six-python.html)
-
-    - **Cheat Sheet**
-      - [RabbitMQ Cheat Sheet 1](https://cheatography.com/francisuk/cheat-sheets/rabbitmq/pdf/)
-      - [RabbitMQ Cheat Sheet 2](https://lzone.de/cheat-sheet/RabbitMQ)
-
-  - #### Apache Kafka
- 
-    - **Documentation**
-      - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
-
-    - **Cheat Sheet**
-      - [Apache Kafka Cheat Sheet 1](https://gist.github.com/sahilsk/d2a6ec384f5f2333e3fef40a581a97e1)
-      - [Apache Kafka Cheat Sheet 2](https://medium.com/@TimvanBaarsen/apache-kafka-cli-commands-cheat-sheet-a6f06eac01b)
-
-- ### WSGI Servers
-
-  - #### Gunicorn
-  
-    - **Documentation**
-      - [Gunicorn Documentation](https://docs.gunicorn.org/en/stable/)
-
-  - #### uWSGI
-  
-    - **Documentation**
-      - [uWSGI Documentation](https://uwsgi-docs.readthedocs.io/en/latest/)
-
-- ### ASGI Servers
-
-  - #### Uvicorn
-  
-    - **Documentation**
-      - [Uvicorn Documentation](https://www.uvicorn.org/)
-    
-  - #### Starlette
-  
-    - **Documentation**
-      - [Starlette Documentation](https://www.starlette.io/)
-
 - ### Web Servers
 
   - #### Nginx
@@ -652,64 +414,7 @@
     - **Cheat Sheet**
       - [Apache Cheat Sheet](http://www.cheat-sheets.org/saved-copy/apache-refcard-a4.pdf)
 
-- ### API
-
-  - #### Design
-  
-    - **Guidelines and Best Practices**
-      - [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
-      - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines)
-
-  - #### Security
-
-    - **Checklist**
-      - [API Security Checklist](https://github.com/bobycloud/API-Security-Checklist/blob/master/README-en.md)
-
-- ### Availability and Reliability
-
-  (In Progress)
-
-- ### Distributed Systems
-
-  (In Progress)
-
-- ### Reactive Systems
-
-  (In Progress)
-
-- ### Refactoring
-
-  - **Video**
-    - [Dive Into REFACTORING](https://refactoring.guru/refactoring/course)
-
-- ### Security
-
-  - **Book**
-    - [The Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470)
-    - [Application_Security_Program_Handbook - a guide for software engineers](https://www.mysterylovescompany.com/book/9781633439818)
-    - [Designing secure software - a guide for devlopers](https://www.amazon.com/Designing-Secure-Software-Guide-Developers/dp/1718501927)
-    - [Hacking APIs Breaking Web Application Programming Interfaces](https://www.amazon.com/Hacking-APIs-Application-Programming-Interfaces/dp/1718502443)
-    - [Web Application Security Exploitation and Countermeasures for Modern Web Applications](https://www.amazon.com/Web-Application-Security-Exploitation-Countermeasures/dp/1492053112)
-    - [Web Security for Developers: Real Threats, Practical Defense](https://www.amazon.com/Web-Security-Developers-Malcolm-McDonald/dp/1593279949)
-    - [Mastering Modern Web Penetration Testing](https://www.amazon.com/Mastering-Modern-Web-Penetration-Testing/dp/1785284584)
-  
-  - **WebSite**
-    - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-    - [OWASP Top 10 for Web with live training](https://application.security/free/owasp-top-10)
-    - [SANS SWAT Checklist](https://www.sans.org/cloud-security/securing-web-application-technologies/)
-
-- ### Monitoring
-  
-  (In Progress)
-
-- ### Soft Skill
-
-  - **Book**
-    - [The Clean Coder: A Code of Conduct for Professional Programmers](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073)
-
-- ### Public Cloud
-
-  (In Progress)
- 
-
-
+- ### Exercises
+  - 🔥 Articles (with registration)
+  - Card holder
+  - Tests
